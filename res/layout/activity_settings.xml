@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_sound"
+        android:title="@string/sound_check_title"
+        android:summary="@string/sound_check_summary"
+        android:defaultValue="true" />
+    
+    <ListPreference
+        android:key="pref_boardSelection"
+        android:title="@string/pref_boardSelection"
+        android:dialogTitle="@string/pref_boardSelection"
+        android:entries="@array/pref_boardSelection_entries"
+        android:entryValues="@array/pref_boardSelection_values"
+        android:defaultValue="0" />
+        
+</PreferenceScreen>

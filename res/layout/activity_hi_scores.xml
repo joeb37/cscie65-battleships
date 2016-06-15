@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".HiScoresActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/hi_scores_top_scores_title" />
+    <View 	
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <!-- Board 1 Top Score -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:text="@string/board1name" />
+	    
+	    <TextView
+	        android:id="@+id/hiscore_board_1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:gravity="right"
+	        android:layout_marginRight="200dp" />
+	</LinearLayout>
+    
+    <!-- Board 2 Top Score -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:text="@string/board2name" />
+	    
+	    <TextView
+	        android:id="@+id/hiscore_board_2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:gravity="right"
+	        android:layout_marginRight="200dp"/>
+	</LinearLayout>
+	
+    <!-- Board 3 Top Score -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:text="@string/board3name" />
+	    
+	    <TextView
+	        android:id="@+id/hiscore_board_3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:gravity="right"
+	        android:layout_marginRight="200dp" />
+	</LinearLayout>
+	
+	<!-- Board 4 Top Score -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:text="@string/board4name" />
+	    
+	    <TextView
+	        android:id="@+id/hiscore_board_4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:gravity="right"
+	        android:layout_marginRight="200dp" />
+	</LinearLayout>
+	
+    <!-- Board 5 Top Score -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:text="@string/board5name" />
+	    
+	    <TextView
+	        android:id="@+id/hiscore_board_5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:gravity="right"
+	        android:layout_marginRight="200dp" />
+	</LinearLayout>
+	
+	<!-- Board 6 Top Score -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:text="@string/board6name" />
+	    
+	    <TextView
+	        android:id="@+id/hiscore_board_6"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:gravity="right"
+	        android:layout_marginRight="200dp" />
+	</LinearLayout>
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:textSize="30sp"
+        android:text="@string/hi_scores_credits_title" />
+    
+    
+    <View 	
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/hi_scores_credits_line_1" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/hi_scores_credits_line_2" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/hi_scores_credits_line_3" />
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp"
+        android:textSize="20sp"
+        android:text="@string/hi_scores_credits_line_4" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/hi_scores_credits_line_5" />
+    
+</LinearLayout>
